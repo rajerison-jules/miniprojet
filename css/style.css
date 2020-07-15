@@ -1,0 +1,139 @@
+body, html {
+    font-size: small;
+}
+body {
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+   
+
+}
+a{
+	 color:rgba(0,0,0,0.87);
+	 text-decoration: none;
+}
+.footer a{
+	 color: #5f6368;
+
+}
+.formulaire{
+
+
+	height: 53px;
+	width: 614px;
+	margin-top: 78px;
+	margin-right: 15px;
+	cursor: text;
+	
+
+}  
+
+.formulaire form .ecrire{
+	width: 560px;
+	background: #fff;
+	display: flex;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	border-radius: 24px;
+	z-index: 3;
+	height: 44px;
+	margin: 0 auto;
+	padding:auto 50px;
+}
+.formulaire form .ecrire input{
+	border: none;
+}
+.formulaire form .ecrire:hover{
+	box-shadow: 2px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.navbar{
+	list-style-type: none;
+	display: inline-block;
+
+}
+.navbar .nav{
+	float: left;
+	margin-left: 10px;
+}
+.header{
+	text-align: right;
+	position: relative;
+	padding-right: 1%;
+}
+.logo{
+	text-align: center;
+	position: relative;
+	top: 92px;
+}
+.btn{
+	
+	border: none;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	margin: 30px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 4px;
+	z-index: 200;
+}
+.btn:hover{
+
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+
+}
+.langue{
+	margin-top: 30px;
+
+}
+.langue a{
+	color: blue;
+}
+
+.footer{	
+
+    color: #5f6368;
+    bottom: 0;
+    font-size: 10pt;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    padding: 1px 30px;
+    font-size: 14px;
+
+}
+.footer a{
+	padding: 2vh;		
+}
+.footer .pays{
+	width:25%;
+}
+
+
+.footer .autre{
+position: absolute;
+right:6%;
+
+}
+.footer .autre2{
+	border-top:  1px solid #e4e4e4;
+}
+.autre2 a:hover, .autre a:hover{
+	text-decoration: underline;
+}
